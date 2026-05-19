@@ -1,1 +1,1 @@
-# digital-text-explorer-metadata
+# digital-text-explorer-data
