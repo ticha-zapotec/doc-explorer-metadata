@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "download": "node ./scripts/download-csvs.mjs",
-    "ingest": "node ./scripts/jsonify.mjs"
+    "download": "node ./scripts/download.mjs",
+    "index": "node ./scripts/index.mjs",
+    "jsonify": "node ./scripts/jsonify.mjs",
+    "ingest": "npm-run-all download index jsonify"
   },
   "keywords": [],
   "author": "",
